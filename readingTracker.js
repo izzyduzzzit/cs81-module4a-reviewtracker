@@ -65,3 +65,11 @@ addReadBook("Saturday", "Dune", 50); // Adding a new reading entry for Saturday
 printDailySummary(readingLog); // Print the daily summary of reading log
 console.log("Total minutes read:", totalReadingMinutes(readingLog)); // Print the total reading minutes for the week
 console.log("Most read book:", mostReadBook(readingLog)); // Print the most frequently read book
+
+//Test cases
+// Test case to add a new entry into the reading log
+addReadBook("Sunday", "The Hobbit", 35);
+// Test case to show total reading minutes after adding a new 
+printDailySummary(readingLog); // Print the daily summary of reading log
+console.log("Total minutes read:", totalReadingMinutes(readingLog)); // Expected output: 215
+console.log("Most read book:", mostReadBook(readingLog)); // Expected output: "Dune"
