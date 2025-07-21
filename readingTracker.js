@@ -9,6 +9,7 @@ const readingLog = [
   { day: "Thursday", book: "The Hobbit", minutes: 40 },
   { day: "Friday", book: "1984", minutes: 15 }
 ];
+// Another suggested imrpovement would be to use dates instead of day names for more flexibility and accuracy in tracking reading over multiple weeks.
 
 // Adds a new reading entry to the log
 // This function adds a new entry to the reading log.
@@ -49,6 +50,7 @@ function mostReadBook(log) {
   }
   return maxBook; // Return the book that was read the most times after checking all counts
 }
+// One suggested improvement would be to handle ties in the most read book function, returning all books with the highest count instead of just one.
 
 // Prints a summary of minutes read per day
 // This function prints a summary of reading minutes for each day in the log.
